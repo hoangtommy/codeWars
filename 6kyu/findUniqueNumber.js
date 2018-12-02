@@ -17,9 +17,9 @@ function findUniq(arr) {
 }
 
 //better solutions:
-function fundUniq(arr) {
-  arr.sort(function(a, b) {
+function findUniq(arr) {
+  let arr2 = arr.slice().sort(function(a, b) {
   	return a - b;
   });
-  return arr[0] === arr[1] ? arr[-1] : arr[0];
+  return arr2[0] === arr2[1] ? arr2[-1] : arr2[0];
 }
