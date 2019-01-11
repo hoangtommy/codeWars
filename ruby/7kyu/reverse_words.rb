@@ -1,4 +1,5 @@
 # Reflection: use regex to split along a space or more
+#gsub method: string.gsub(/regex/, hash, block, or string)
 
 # Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
 
