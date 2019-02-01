@@ -1,3 +1,4 @@
+
 #Reflection: Focus on readability. left_half is only used once so we didn't need to declare it.
 
 # a cleaner solution
@@ -14,13 +15,14 @@ def find_pivot(numbers)
 end
 
 #initial solution
+
 # def find_pivot(number_list, mid_index = (number_list.length / 2).round)
-# 	left_half = number_list[0...mid_index]
-# 	left_sum = left_half.sum
+	# left_half = number_list[0...mid_index]
+	# left_sum = left_half.sum
 
 # 	right_half = number_list[mid_index + 1..number_list.length - 1]
 # 	right_sum = right_half.sum
-	
+
 # 	return -1 if (left_sum != right_sum) && (mid_index == 1 || mid_index == number_list.length - 2)
 
 # 	if left_sum == right_sum
@@ -31,6 +33,7 @@ end
 # 		return find_pivot(number_list, mid_index + 1)
 # 	end
 # end
+
 
 # Test Suite
 describe "find_pivot method" do
