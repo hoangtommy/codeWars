@@ -1,4 +1,5 @@
-#Reflection: The enumerable methods produce an enumerable object when not passed a block. We can use this to chain enumberables together.
+#Reflection: The enumerable methods produce an enumerable object when not passed a block. 
+# We can use this to chain enumberables together.
 
 # Write a function that takes an array of numbers (integers for the tests) and a target number. 
 # It should find two different items in the array that, when added together, give the target value. 
